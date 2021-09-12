@@ -24,6 +24,8 @@
 
     In addition to these, card1 through card5 are present to support layout and are mixed with classes 
     mentioned above. 
+
+    > Desktop size
 */
 .card-container {
 
@@ -80,6 +82,7 @@ img {
 */
 .card-person {
     
+    margin-left: 1vw;;
     grid-area: person;
     margin-right: auto;
     margin-top: 2px;
@@ -87,13 +90,13 @@ img {
 
 .card-name {
     
-    margin-left: 1vw;
+    /* margin-left: 1vw; */
     font-size: 13px;
 }
 
 .card-verified {
     
-    margin-left: 1vw;
+    /* margin-left: 1vw; */
     opacity: 0.5;
     font-size: 11px;
 }
@@ -213,5 +216,119 @@ img {
 }
 
 .card-5 img {
+
     border: 2px solid hsl(263, 55%, 52%);
+}
+
+/* 
+
+    ------------------------------------------------- Media Queries ---------------------------------------------------
+
+    Created four Media Queries:
+    1. Breakpoint at width: 1280px - because design for name/verified breaks at this resolution
+    2. Breakpoint at width: 950px - because design for name/verified breaks at this resolution
+    3. Breakpoint at width: 768px - going for mobilish view for tablet size screens
+    4. Breakpoint at width: 375px - focusing on mobile size screens
+*/
+
+/* 
+    Wide screen size, width of 1280px
+    (because design for name/verified breaks at this resolution)
+*/
+@media only screen and (max-width: 1280px) {
+
+    .card-container {
+        width: 80%;
+    }
+}
+
+/* 
+    Wide screen size, width of 950px
+    (because design for name/verified breaks at this resolution)
+*/
+@media only screen and (max-width: 950px) {
+
+    .card-container {
+        width: 95%;
+    }
+}
+
+/* 
+    Tablet size screens
+*/
+@media only screen and (max-width: 768px) {
+
+    .card-container {
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        width: 85%;
+    }
+
+    .card-1 {
+
+        order: 1;
+    }
+
+    .card-2 {
+
+        order: 2;
+    }
+
+    .card-3 {
+
+        order: 5;
+    }
+
+    .card-4 {
+
+        order: 3;
+    }
+
+    .card-5 {
+
+        order: 4;
+    }
+}
+
+/* 
+    Mobile size screens
+*/
+@media only screen and (max-width: 375px) {
+
+    .card-container {
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        width: 90%;
+    }
+
+    .card-1 {
+
+        order: 1;
+    }
+
+    .card-2 {
+
+        order: 2;
+    }
+
+    .card-3 {
+
+        order: 5;
+    }
+
+    .card-4 {
+
+        order: 3;
+    }
+
+    .card-5 {
+
+        order: 4;
+    }
 }

@@ -4,7 +4,7 @@
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -21,16 +21,20 @@ Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 
-### Screenshot
+### Screenshots
 
 Desktop version:
 
 ![Desktop version](./images/screenshot-desktop.png)
 
+Mobile version:
+
+![Mobile version](./images/screenshot-mobile.png)
+
 ### Links
 
-- Production URL: [valentina-milicevic-prod-testimonials-grid.vercel.app](valentina-milicevic-prod-testimonials-grid.vercel.app)
-- Development URL: [valentina-milicevic-dev-testimonials-grid.vercel.app](valentina-milicevic-dev-testimonials-grid.vercel.app)
+- Production URL: [valentina-milicevic-prod-testimonials-grid.vercel.app](http://valentina-milicevic-prod-testimonials-grid.vercel.app)
+- Development URL: [valentina-milicevic-dev-testimonials-grid.vercel.app](http://valentina-milicevic-dev-testimonials-grid.vercel.app)
 
 ## My process
 
@@ -39,6 +43,8 @@ Desktop version:
 - Semantic HTML5 markup
 - CSS custom properties
 - CSS Grid
+- Flex box
+- Media queries
 
 ### What I learned
 
@@ -56,6 +62,7 @@ In future projects I would like to focus on following areas which aren't impleme
 ### Useful resources
 
 - [MDN - CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) - Was useful as it contains links to all topics neccessary to make Grid layout work.
+- [MDN - Ordering flex items](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Ordering_Flex_Items) - MDN documentation on how to order items in flex box.
 - [YT - CSS Grid Layout Crash Course](https://www.youtube.com/watch?v=jV8B24rSN5o) - Very short and useful introduction to Grid layout.
 
 ## Author
